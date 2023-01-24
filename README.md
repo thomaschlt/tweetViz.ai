@@ -1,1 +1,1 @@
-# tweetViz-dataVisualization-sentimentAnalysis
+# tweetViz
