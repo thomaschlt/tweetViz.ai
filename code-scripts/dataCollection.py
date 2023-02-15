@@ -23,9 +23,3 @@ for tweet in sntwitter.TwitterUserScraper(query).get_items():
 df = pd.DataFrame(tweets, columns=[
                   'Datetime', 'Username', 'Content', 'Like', 'RT'])
 df.to_csv("../processed-data/musk.csv")
-
-
-# consumer_key = "ZeBeo2BtQ9ZO5ITJPTcmDIuqX"
-# consumer_secret = "Z34LvrXYlXVvxEGOewfSWjlZuoEtybOthtqcWZDs6RRfaEx1Wh"
-# access_token = "797893716023373824-UXpwgrONfgN2bjtAGnqe1qKpZD3Xkbh"
-# access_token_secret = "Zx8fBpbdWsMXpkVqEZORbvfjKqy4NVaViSX0ZMLeTc0sG"
