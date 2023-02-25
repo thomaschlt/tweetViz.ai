@@ -1,0 +1,911 @@
+[
+  {
+    "Id": "0",
+    "Datetime": "2023-02-04 18:48:58+00:00",
+    "Username": "gmoneymd",
+    "Tweet": "@FoxNews Trying to upload viruses to starlink satellites? @elonmusk  @ChineseBalloon",
+    "Roberta_neg": "0.5397688",
+    "Roberta_neu": "0.4405872",
+    "Roberta_pos": "0.019643951"
+  },
+  {
+    "Id": "1",
+    "Datetime": "2023-02-04 18:48:57+00:00",
+    "Username": "vilebruises",
+    "Tweet": "@bxrninghell @elonmusk Choke.",
+    "Roberta_neg": "0.08771437",
+    "Roberta_neu": "0.83413136",
+    "Roberta_pos": "0.07815425"
+  },
+  {
+    "Id": "2",
+    "Datetime": "2023-02-04 18:48:57+00:00",
+    "Username": "CrustyCryptCrab",
+    "Tweet": "@PizzzleWizzzle @SKMorefield @Project_Veritas @mcm_ct_usa @YouTube @pfizer @elonmusk @TwitterSafety 100X your investment with X coin. It's the next big thing you'll regret missing out on. Endorsed by God himself, you'll thank me later...",
+    "Roberta_neg": "0.056889247",
+    "Roberta_neu": "0.2842113",
+    "Roberta_pos": "0.6588994"
+  },
+  {
+    "Id": "3",
+    "Datetime": "2023-02-04 18:48:56+00:00",
+    "Username": "DanFelder7",
+    "Tweet": "@CB_Hinson @VivaLaAmes11 @elonmusk If you are 'woke' then everyone white is irredeemably racist regardless of any consideration other than their skin color.\n\nSo why bother to ask?\n\nAlso, this tweet has been reported for spam since you repeatedly posted it as harassment. I hope you get spanked, loser.",
+    "Roberta_neg": "0.9510752",
+    "Roberta_neu": "0.04544559",
+    "Roberta_pos": "0.003479244"
+  },
+  {
+    "Id": "4",
+    "Datetime": "2023-02-04 18:48:56+00:00",
+    "Username": "ilpadrinopacino",
+    "Tweet": "@DVATW Thank you @CommunityNotes \n@elonmusk it’s working!",
+    "Roberta_neg": "0.0010840537",
+    "Roberta_neu": "0.032884113",
+    "Roberta_pos": "0.96603185"
+  },
+  {
+    "Id": "5",
+    "Datetime": "2023-02-04 18:48:54+00:00",
+    "Username": "DLGDen",
+    "Tweet": "@carolvorders @elonmusk Wow. I was following you. Just checked it’s showing that I’m not. Have re-followed. Weird and concerning.",
+    "Roberta_neg": "0.5538119",
+    "Roberta_neu": "0.3786755",
+    "Roberta_pos": "0.06751259"
+  },
+  {
+    "Id": "6",
+    "Datetime": "2023-02-04 18:48:54+00:00",
+    "Username": "sparkspace2",
+    "Tweet": "@elonmusk Question, should there be a standardized rate of pay? for lawyers say that of a grocery clerk, for instants I ask, because I think lawyers drag out cases for as long as possible to make more money",
+    "Roberta_neg": "0.26680276",
+    "Roberta_neu": "0.6807171",
+    "Roberta_pos": "0.052480116"
+  },
+  {
+    "Id": "7",
+    "Datetime": "2023-02-04 18:48:53+00:00",
+    "Username": "Mike_0x10ng",
+    "Tweet": "@BillyM2k @elonmusk Nice",
+    "Roberta_neg": "0.009512954",
+    "Roberta_neu": "0.4202368",
+    "Roberta_pos": "0.5702503"
+  },
+  {
+    "Id": "8",
+    "Datetime": "2023-02-04 18:48:53+00:00",
+    "Username": "dylan25732",
+    "Tweet": "@EvasTeslaSPlaid @elonmusk I’m sure it will kill many school children",
+    "Roberta_neg": "0.9049215",
+    "Roberta_neu": "0.08903472",
+    "Roberta_pos": "0.006043792"
+  },
+  {
+    "Id": "9",
+    "Datetime": "2023-02-04 18:48:53+00:00",
+    "Username": "PearlyMopar",
+    "Tweet": "@EvasTeslaSPlaid @elonmusk Hook it to the Ford Lightening, electric to electric!",
+    "Roberta_neg": "0.0075509944",
+    "Roberta_neu": "0.50512415",
+    "Roberta_pos": "0.4873249"
+  },
+  {
+    "Id": "10",
+    "Datetime": "2023-02-04 18:48:52+00:00",
+    "Username": "Brendaw94197260",
+    "Tweet": "@elonmusk @elonmusk Hello friend, I understand that your company is launching their operations in Kenya this month. I have always wanted to be part of your unprecedented economic prowess. Kindly allow me be part of the team that will be working in Kenya. Am ready for any role.",
+    "Roberta_neg": "0.0024176056",
+    "Roberta_neu": "0.079417296",
+    "Roberta_pos": "0.91816497"
+  },
+  {
+    "Id": "11",
+    "Datetime": "2023-02-04 18:48:52+00:00",
+    "Username": "RobertN56615104",
+    "Tweet": "@Project_Veritas @YouTube @pfizer @elonmusk @TwitterSafety @elonmusk  so much for free speech huh?",
+    "Roberta_neg": "0.33579212",
+    "Roberta_neu": "0.58949924",
+    "Roberta_pos": "0.07470874"
+  },
+  {
+    "Id": "12",
+    "Datetime": "2023-02-04 18:48:52+00:00",
+    "Username": "JavanYn",
+    "Tweet": "@teslaownersSV @BillGates @elonmusk This Bill dude is so obsessed with vaccines lmao",
+    "Roberta_neg": "0.60412174",
+    "Roberta_neu": "0.32262403",
+    "Roberta_pos": "0.07325431"
+  },
+  {
+    "Id": "13",
+    "Datetime": "2023-02-04 18:48:52+00:00",
+    "Username": "ilvejjk",
+    "Tweet": "@majitokoo Hello @Twitter @TwitterSupport @elonmusk @TwitterKorea please unmute “Taehyung”. Taehyung is not a common word, its the name of one of the BTS member.\n\nTWITTER UNMUTE TAEHYUNG!!",
+    "Roberta_neg": "0.34134805",
+    "Roberta_neu": "0.5489039",
+    "Roberta_pos": "0.1097481"
+  },
+  {
+    "Id": "14",
+    "Datetime": "2023-02-04 18:48:48+00:00",
+    "Username": "Elshad1975",
+    "Tweet": "Roseanne Turns Down $4 Million Spot On The View Due to Owner Elon Musk.\n#elonmusk https://t.co/9bjGBJOhid",
+    "Roberta_neg": "0.46952325",
+    "Roberta_neu": "0.4939542",
+    "Roberta_pos": "0.03652262"
+  },
+  {
+    "Id": "15",
+    "Datetime": "2023-02-04 18:48:48+00:00",
+    "Username": "TurnOffYourTvN1",
+    "Tweet": "@DrAseemMalhotra @elonmusk Are you telling porkies to get attention again?",
+    "Roberta_neg": "0.4929781",
+    "Roberta_neu": "0.49165094",
+    "Roberta_pos": "0.0153709"
+  },
+  {
+    "Id": "16",
+    "Datetime": "2023-02-04 18:48:47+00:00",
+    "Username": "KrestTest",
+    "Tweet": "@OfficialABQ @Tesla @AmazonUK @elonmusk They haven't yet as they are from the future.\n\nAvailable 2025 onwards...",
+    "Roberta_neg": "0.062314488",
+    "Roberta_neu": "0.7325823",
+    "Roberta_pos": "0.20510316"
+  },
+  {
+    "Id": "17",
+    "Datetime": "2023-02-04 18:48:47+00:00",
+    "Username": "andylandsberger",
+    "Tweet": "@CYBRTRK420 @elonmusk @tesla_europe Silver Bullet",
+    "Roberta_neg": "0.034871988",
+    "Roberta_neu": "0.8836034",
+    "Roberta_pos": "0.08152462"
+  },
+  {
+    "Id": "18",
+    "Datetime": "2023-02-04 18:48:47+00:00",
+    "Username": "pmcmas",
+    "Tweet": "@elonmusk @kylekinane I grew up in government housing (Projects) with My Mother who was born and raised in Paris, France. Married a soldier/alcoholic at that time. Bus to Dallas with myself and 3 ❤️brothers. Knew No English. RIP MOM .Skin Color don’t see. Only the color of Blood https://t.co/7VhfaKCujL",
+    "Roberta_neg": "0.3856834",
+    "Roberta_neu": "0.5167608",
+    "Roberta_pos": "0.09755585"
+  },
+  {
+    "Id": "19",
+    "Datetime": "2023-02-04 18:48:46+00:00",
+    "Username": "NailDivas",
+    "Tweet": "@carolvorders @elonmusk Yep, us too.......",
+    "Roberta_neg": "0.07417371",
+    "Roberta_neu": "0.77305275",
+    "Roberta_pos": "0.15277353"
+  },
+  {
+    "Id": "20",
+    "Datetime": "2023-02-04 18:48:45+00:00",
+    "Username": "ChrisLaugaland",
+    "Tweet": "@elonmusk I can’t believe you got sued for THAT. https://t.co/9f6Dj4Iajw",
+    "Roberta_neg": "0.8805202",
+    "Roberta_neu": "0.10947669",
+    "Roberta_pos": "0.010002957"
+  },
+  {
+    "Id": "21",
+    "Datetime": "2023-02-04 18:48:45+00:00",
+    "Username": "Soldier_Cynic",
+    "Tweet": "@elonmusk What happened to you seeking the wisdom of the people for all major twitter decisions? When are you stepping down anyways?",
+    "Roberta_neg": "0.4888054",
+    "Roberta_neu": "0.49405718",
+    "Roberta_pos": "0.017137416"
+  },
+  {
+    "Id": "22",
+    "Datetime": "2023-02-04 18:48:45+00:00",
+    "Username": "Btsarmynarjes",
+    "Tweet": "Hi @Twitter @TwitterSupport @elonmusk @TwitterKorea please unmute “Taehyung”. Taehyung is not a common word, its the name of one of the BTS member.\n\nTWITTER UNMUTE TAEHYUNG!!\n....",
+    "Roberta_neg": "0.3063502",
+    "Roberta_neu": "0.57816553",
+    "Roberta_pos": "0.115484335"
+  },
+  {
+    "Id": "23",
+    "Datetime": "2023-02-04 18:48:44+00:00",
+    "Username": "SabineGlocker",
+    "Tweet": "Modern-day Nostradamus predicts Elon Musk becomes US president on May 11 this year! https://t.co/pJ2OPgxN4s",
+    "Roberta_neg": "0.024000987",
+    "Roberta_neu": "0.76811904",
+    "Roberta_pos": "0.20787992"
+  },
+  {
+    "Id": "24",
+    "Datetime": "2023-02-04 18:48:44+00:00",
+    "Username": "KarlaAl04242542",
+    "Tweet": "@pjmklvs Hi @Twitter @TwitterSupport @elonmusk \n@TwitterKorea please unmute \n\"Taehyung\". Taehyung is not a common\nworld, its the name of one of the BTS",
+    "Roberta_neg": "0.28560102",
+    "Roberta_neu": "0.6422908",
+    "Roberta_pos": "0.07210833"
+  },
+  {
+    "Id": "25",
+    "Datetime": "2023-02-04 18:48:42+00:00",
+    "Username": "debpolan",
+    "Tweet": "@cb_doge @elonmusk @Tesla @mayemusk @SpaceX Affiliating a minor with the number 69 is wrong. It’s just happened at the article appeared on that page that is off.",
+    "Roberta_neg": "0.65712327",
+    "Roberta_neu": "0.3187057",
+    "Roberta_pos": "0.024171157"
+  },
+  {
+    "Id": "26",
+    "Datetime": "2023-02-04 18:48:41+00:00",
+    "Username": "ChrisK52565266",
+    "Tweet": "@alx @bennyjohnson @elonmusk Saving lives should be free.",
+    "Roberta_neg": "0.05828422",
+    "Roberta_neu": "0.63224864",
+    "Roberta_pos": "0.30946717"
+  },
+  {
+    "Id": "27",
+    "Datetime": "2023-02-04 18:48:40+00:00",
+    "Username": "LionelRamsal1",
+    "Tweet": "@nytimes According to independent China's sources the balloon could be Elon Musk head travelling separately because of the 'lack of room' of doors 🚪.\n⬇️\n📸 Courtesy of Theo Wargo | Wireimage | Getty Images https://t.co/K0Yedfwu6j",
+    "Roberta_neg": "0.2792994",
+    "Roberta_neu": "0.6769555",
+    "Roberta_pos": "0.043745004"
+  },
+  {
+    "Id": "28",
+    "Datetime": "2023-02-04 18:48:39+00:00",
+    "Username": "SubTerminateJ5",
+    "Tweet": "@elonmusk @elonmusk electromagnetism can be a better energy source. Torsion fields and pulling from the ether would be a better source of energy. Suppression can be used to eliminate issues with higher frequencies. Plus can also be used for transportation and space travel.",
+    "Roberta_neg": "0.01891889",
+    "Roberta_neu": "0.26958707",
+    "Roberta_pos": "0.7114939"
+  },
+  {
+    "Id": "29",
+    "Datetime": "2023-02-04 18:48:38+00:00",
+    "Username": "skcollob_ho",
+    "Tweet": "@NadineDorries @elonmusk Or, hear me out, just switches YOU off so the rest of us don’t have to endure your gin soaked twaddle?",
+    "Roberta_neg": "0.74036646",
+    "Roberta_neu": "0.2378521",
+    "Roberta_pos": "0.021781495"
+  },
+  {
+    "Id": "30",
+    "Datetime": "2023-02-04 18:48:37+00:00",
+    "Username": "gypsies_heather",
+    "Tweet": "@elonmusk Always about the buck 🦌",
+    "Roberta_neg": "0.050925788",
+    "Roberta_neu": "0.79994684",
+    "Roberta_pos": "0.14912741"
+  },
+  {
+    "Id": "31",
+    "Datetime": "2023-02-04 18:48:36+00:00",
+    "Username": "hl_wilde",
+    "Tweet": "I want a cybertruck @elonmusk 🖤",
+    "Roberta_neg": "0.004261676",
+    "Roberta_neu": "0.22572762",
+    "Roberta_pos": "0.7700107"
+  },
+  {
+    "Id": "32",
+    "Datetime": "2023-02-04 18:48:36+00:00",
+    "Username": "Cronos59690722",
+    "Tweet": "@theoperi @panbog2 @TheRisingFinix @makedonien_mk @Chigeorge72 @PallasGlaux @Tutunarot1 @G7uQ40F6VP1Rv2U @IoannisKapo1 @eftimia60 @JordanTviterka @vladegv @GrecoStrategos @MAKEDONMMA @_kavla1_ @max_zek_x @bigjohn53979259 @Aretitheta @TreloKomio5 @Ar_MA_ge_don @SrebreniKopja @OKOTOnaSE @YiosDia @Alexand45539671 @mmamakedonia @BasilesNikolaou @MakedonPaeon @THE_GREEK_007 @lolita194636511 @Darnakas3 @_Makedonuts_ @AITWLOS @andros_sk_mari @dokurcev @PegoEmpresa @APsilos @basedfootball_ @dondon90820793 @xKilluminatix_ @orguel1984 @Okurcan3 @mkdalex_mk @IamHellenic @DOOM90129835 @oc1hr9id47 @RDOOM85831413 @lilaposer1261 @_Jan_____ @BiblioStrumski @elonmusk Zoografski always had bulgarophilic tendencies. Aldough this text was written before the Bulgarian exarchate was formed, there was still a movement by the clergy to form one. He fell victim to those ideas",
+    "Roberta_neg": "0.20588562",
+    "Roberta_neu": "0.75735164",
+    "Roberta_pos": "0.036762852"
+  },
+  {
+    "Id": "33",
+    "Datetime": "2023-02-04 18:48:36+00:00",
+    "Username": "DaNiii_lynx",
+    "Tweet": "@pjmklvs Hi @Twitter @TwitterSupport @elonmusk @TwitterKorea please unmute “Taehyung”. Taehyung is not a common word, its the name of one of the BTS member.\n\nTWITTER UNMUTE TAEHYUNG!!",
+    "Roberta_neg": "0.34779716",
+    "Roberta_neu": "0.5461757",
+    "Roberta_pos": "0.10602705"
+  },
+  {
+    "Id": "34",
+    "Datetime": "2023-02-04 18:48:35+00:00",
+    "Username": "botolo86",
+    "Tweet": "@elonmusk @cb_doge @Tesla @mayemusk @SpaceX What would you tell that 12-year-old version of yourself if you could travel back in time?",
+    "Roberta_neg": "0.049132213",
+    "Roberta_neu": "0.854039",
+    "Roberta_pos": "0.09682881"
+  },
+  {
+    "Id": "35",
+    "Datetime": "2023-02-04 18:48:34+00:00",
+    "Username": "Allen22586454",
+    "Tweet": "@Zulfi86567669 @elonmusk @BillyM2k @cb_doge But honey, they are.\nI can't respond to shit I can't see",
+    "Roberta_neg": "0.7454912",
+    "Roberta_neu": "0.2292248",
+    "Roberta_pos": "0.025283994"
+  },
+  {
+    "Id": "36",
+    "Datetime": "2023-02-04 18:48:34+00:00",
+    "Username": "dengel12",
+    "Tweet": "@MarkDavis @DMC_Ryan @elonmusk Bad take.  Truth always wins in the end.",
+    "Roberta_neg": "0.13745753",
+    "Roberta_neu": "0.6220544",
+    "Roberta_pos": "0.2404881"
+  },
+  {
+    "Id": "37",
+    "Datetime": "2023-02-04 18:48:33+00:00",
+    "Username": "717_331",
+    "Tweet": "@JoJoFromJerz How does it feel to pay Elon Musk 🤣🤣🤣🤣🤣🤣🤣",
+    "Roberta_neg": "0.37157175",
+    "Roberta_neu": "0.52773494",
+    "Roberta_pos": "0.10069331"
+  },
+  {
+    "Id": "38",
+    "Datetime": "2023-02-04 18:48:33+00:00",
+    "Username": "lordzbab",
+    "Tweet": "@RobSchneider @elonmusk @BillGates why must we send him to mars cant we send him to the sun? if he can harness the energy he can make a bunch of money...",
+    "Roberta_neg": "0.16352743",
+    "Roberta_neu": "0.64341044",
+    "Roberta_pos": "0.19306213"
+  },
+  {
+    "Id": "39",
+    "Datetime": "2023-02-04 18:48:32+00:00",
+    "Username": "Lilly28484679",
+    "Tweet": "I thought Twitter was all about free speech. Especially if that speech is 100% correct. #FreeProjectVeritas @elonmusk @TwitterSupport",
+    "Roberta_neg": "0.075920634",
+    "Roberta_neu": "0.5893399",
+    "Roberta_pos": "0.33473954"
+  },
+  {
+    "Id": "40",
+    "Datetime": "2023-02-04 18:48:32+00:00",
+    "Username": "Kevinhtfld23",
+    "Tweet": "@Krogdog101 @Project_Veritas @YouTube @pfizer @elonmusk @TwitterSafety Flaged Items are reviewed by a employee who uses subjective bias instead of objectively defined triggers.",
+    "Roberta_neg": "0.30206358",
+    "Roberta_neu": "0.6497663",
+    "Roberta_pos": "0.04817016"
+  },
+  {
+    "Id": "41",
+    "Datetime": "2023-02-04 18:48:32+00:00",
+    "Username": "AutumnHMW",
+    "Tweet": "@AlastairMcA30 @elonmusk Here for the comments and to passively reinforce my understanding that people have a compulsory habit of tuning out what they don't understand or don't want to because doesn't fit their agenda when they read it.",
+    "Roberta_neg": "0.7313375",
+    "Roberta_neu": "0.25606596",
+    "Roberta_pos": "0.012596627"
+  },
+  {
+    "Id": "42",
+    "Datetime": "2023-02-04 18:48:31+00:00",
+    "Username": "krzysztofwos",
+    "Tweet": "@davidasinclair @CouncilorAlbedo @elonmusk @lexfridman If real death—the endless aenestethisation of consciousness—would be a real option, it would appeal to anybody who suffers. However, the terrifying fact is that it is not an option.  Your consciousness cannot be easily extinguished.",
+    "Roberta_neg": "0.57447475",
+    "Roberta_neu": "0.35415888",
+    "Roberta_pos": "0.07136637"
+  },
+  {
+    "Id": "43",
+    "Datetime": "2023-02-04 18:48:30+00:00",
+    "Username": "stillnotadvice",
+    "Tweet": "@RyanNoe10 @hubermanlab @DrGottfried Take it up with @elonmusk 🤷🏼‍♀️🤣",
+    "Roberta_neg": "0.06421028",
+    "Roberta_neu": "0.7909686",
+    "Roberta_pos": "0.14482124"
+  },
+  {
+    "Id": "44",
+    "Datetime": "2023-02-04 18:48:30+00:00",
+    "Username": "Synnewman",
+    "Tweet": "@GenFlynn @elonmusk @VP @JoeBiden Our President is a FOREIGN AGENT for the Chinese.  He is sooo compromised he cannot, for his own sake, do anything to help the American people. Impeach and expose his corruption, please!!!",
+    "Roberta_neg": "0.93751144",
+    "Roberta_neu": "0.058378592",
+    "Roberta_pos": "0.004110145"
+  },
+  {
+    "Id": "45",
+    "Datetime": "2023-02-04 18:48:29+00:00",
+    "Username": "PallisterCraig",
+    "Tweet": "@ThHappyHawaiian @ThePickaxe_Ag #wtf  does this mean ? Think it’s high time some of the ‘ official ‘ stepped up 🤔 have these two con men suddenly gained god like status thanks to @elonmusk ! What a total con !!!!!!!",
+    "Roberta_neg": "0.85801697",
+    "Roberta_neu": "0.12726079",
+    "Roberta_pos": "0.01472232"
+  },
+  {
+    "Id": "46",
+    "Datetime": "2023-02-04 18:48:29+00:00",
+    "Username": "72cons",
+    "Tweet": "@yreniiiix @elonmusk 143 million",
+    "Roberta_neg": "0.051152654",
+    "Roberta_neu": "0.85022175",
+    "Roberta_pos": "0.098625645"
+  },
+  {
+    "Id": "47",
+    "Datetime": "2023-02-04 18:48:28+00:00",
+    "Username": "Dagon57R",
+    "Tweet": "@teslaownersSV @elonmusk So please put the seat back on the left side so if any s*** goes down when you're driving down the big road you can always jump and name the truck the other way because you're probably not going to make it with your $48,000 pounds of cargo you're hauling behind you",
+    "Roberta_neg": "0.80771405",
+    "Roberta_neu": "0.17017564",
+    "Roberta_pos": "0.022110393"
+  },
+  {
+    "Id": "48",
+    "Datetime": "2023-02-04 18:48:26+00:00",
+    "Username": "realMargeAndrei",
+    "Tweet": "@realMikeLindell @elonmusk @MyPillowUSA why does everyone who finds themselves restricted tag Elon in their post? Solve it with @TwitterSupport 🥲",
+    "Roberta_neg": "0.19975013",
+    "Roberta_neu": "0.5380822",
+    "Roberta_pos": "0.26216766"
+  },
+  {
+    "Id": "49",
+    "Datetime": "2023-02-04 18:48:26+00:00",
+    "Username": "QazalShirin",
+    "Tweet": "@elonmusk Congratulations\ngreat honest man 🌹🌹",
+    "Roberta_neg": "0.001762205",
+    "Roberta_neu": "0.022587102",
+    "Roberta_pos": "0.9756508"
+  },
+  {
+    "Id": "50",
+    "Datetime": "2023-02-04 18:48:25+00:00",
+    "Username": "goodjobcarryon",
+    "Tweet": "@spring_nwinter @elonmusk I TRIED SO HARD NOT TO LET IT TAKE OVER EVERY SINGLE ONE OF OUR CONVERSATIONS",
+    "Roberta_neg": "0.35917985",
+    "Roberta_neu": "0.5117516",
+    "Roberta_pos": "0.12906845"
+  },
+  {
+    "Id": "51",
+    "Datetime": "2023-02-04 18:48:25+00:00",
+    "Username": "Btsarmynarjes",
+    "Tweet": "Hi @Twitter @TwitterSupport @elonmusk @TwitterKorea please unmute “Taehyung”. Taehyung is not a common word, its the name of one of the BTS member.\n\nTWITTER UNMUTE TAEHYUNG!!\n...",
+    "Roberta_neg": "0.2980218",
+    "Roberta_neu": "0.58603054",
+    "Roberta_pos": "0.115947805"
+  },
+  {
+    "Id": "52",
+    "Datetime": "2023-02-04 18:48:25+00:00",
+    "Username": "stiggimy",
+    "Tweet": "I like how when @elonmusk laughes he just comments 🤣 and goes away with it.",
+    "Roberta_neg": "0.04184742",
+    "Roberta_neu": "0.3103261",
+    "Roberta_pos": "0.6478265"
+  },
+  {
+    "Id": "53",
+    "Datetime": "2023-02-04 18:48:25+00:00",
+    "Username": "OkayBobCalmDown",
+    "Tweet": "@elonmusk  turning off comments on your YouTube live is a bitch move and you know it\n#lilbbyboi",
+    "Roberta_neg": "0.8421899",
+    "Roberta_neu": "0.14399396",
+    "Roberta_pos": "0.013816144"
+  },
+  {
+    "Id": "54",
+    "Datetime": "2023-02-04 18:48:25+00:00",
+    "Username": "fkpvw",
+    "Tweet": "What about Elon Musk? Well he certainly tweets about AI more than Doge these days, and even Twitter payments does not just include $DOGE but crypto as a whole. Our collective bias might fail to see the linkage to AI coins at the moment like we look for clues in his dog tweets",
+    "Roberta_neg": "0.42549685",
+    "Roberta_neu": "0.4783188",
+    "Roberta_pos": "0.09618433"
+  },
+  {
+    "Id": "55",
+    "Datetime": "2023-02-04 18:48:25+00:00",
+    "Username": "Artist794360711",
+    "Tweet": "@aniebyls @elonmusk @TaraBull808 Ukraine isn't worth WW3 and is screwed.",
+    "Roberta_neg": "0.89540523",
+    "Roberta_neu": "0.09913465",
+    "Roberta_pos": "0.0054599443"
+  },
+  {
+    "Id": "56",
+    "Datetime": "2023-02-04 18:48:25+00:00",
+    "Username": "rafadontschleep",
+    "Tweet": "elon musk got ratiod on twitter and it hurt him so profoundly that he decided he needed to destroy the entire site",
+    "Roberta_neg": "0.9599571",
+    "Roberta_neu": "0.038077164",
+    "Roberta_pos": "0.0019657542"
+  },
+  {
+    "Id": "57",
+    "Datetime": "2023-02-04 18:48:24+00:00",
+    "Username": "HydroponicStan",
+    "Tweet": "@cb_doge @elonmusk @Tesla Thank goodness 😅",
+    "Roberta_neg": "0.0031824864",
+    "Roberta_neu": "0.079518996",
+    "Roberta_pos": "0.91729856"
+  },
+  {
+    "Id": "58",
+    "Datetime": "2023-02-04 18:48:24+00:00",
+    "Username": "MEEKYANG1",
+    "Tweet": "@elonmusk HAPPINESS IS FREE;IS THAT TRUE?",
+    "Roberta_neg": "0.031448636",
+    "Roberta_neu": "0.53151065",
+    "Roberta_pos": "0.43704078"
+  },
+  {
+    "Id": "59",
+    "Datetime": "2023-02-04 18:48:24+00:00",
+    "Username": "NERDYXNiNJA",
+    "Tweet": "@sparkle6193920 @elonmusk I know that feeling. I once beat a obstructing traffic charge. They was trying to jam me up in the system smh.",
+    "Roberta_neg": "0.68184614",
+    "Roberta_neu": "0.28235906",
+    "Roberta_pos": "0.0357948"
+  },
+  {
+    "Id": "60",
+    "Datetime": "2023-02-04 18:48:23+00:00",
+    "Username": "ginelven",
+    "Tweet": "@cb_doge @elonmusk @Tesla @mayemusk @SpaceX Good 69😎",
+    "Roberta_neg": "0.0020141506",
+    "Roberta_neu": "0.09676861",
+    "Roberta_pos": "0.9012172"
+  },
+  {
+    "Id": "61",
+    "Datetime": "2023-02-04 18:48:23+00:00",
+    "Username": "Gino619sd",
+    "Tweet": "@EvasTeslaSPlaid @elonmusk A Ford? Lol",
+    "Roberta_neg": "0.054051004",
+    "Roberta_neu": "0.7703884",
+    "Roberta_pos": "0.1755605"
+  },
+  {
+    "Id": "62",
+    "Datetime": "2023-02-04 18:48:23+00:00",
+    "Username": "darren_wharton1",
+    "Tweet": "@FoxNews i am curious as to why @elonmusk is so quiet on all of this\nI am sure Elon's answer would be to send the Falcon Heavy to obliterate it lol 🚀🎈💥😆",
+    "Roberta_neg": "0.23808949",
+    "Roberta_neu": "0.57030165",
+    "Roberta_pos": "0.19160882"
+  },
+  {
+    "Id": "63",
+    "Datetime": "2023-02-04 18:48:22+00:00",
+    "Username": "ZealThomas1",
+    "Tweet": "@Matchday365CPFC @elonmusk delete this guys account",
+    "Roberta_neg": "0.710102",
+    "Roberta_neu": "0.27410606",
+    "Roberta_pos": "0.015791899"
+  },
+  {
+    "Id": "64",
+    "Datetime": "2023-02-04 18:48:22+00:00",
+    "Username": "malm_magnus",
+    "Tweet": "@garyblack00 @TeslaAndDoge @Dragonboy155 @TeslaBoomerMama @farzyness @elonmusk All tech stonks plummeted dude. Who sold $TSLA stocks? Who created the the Twitter \"noise\"? Elon. Stop pretend you never said or ever hinted Elon hurted the brand. Own up. IMHO.",
+    "Roberta_neg": "0.7348522",
+    "Roberta_neu": "0.23819573",
+    "Roberta_pos": "0.026952019"
+  },
+  {
+    "Id": "65",
+    "Datetime": "2023-02-04 18:48:22+00:00",
+    "Username": "TA_CFC",
+    "Tweet": "@Enzo13Fernandez @ChelseaFC @elonmusk verify this man or you’ll have me to deal with 😡",
+    "Roberta_neg": "0.7889776",
+    "Roberta_neu": "0.19808012",
+    "Roberta_pos": "0.012942108"
+  },
+  {
+    "Id": "66",
+    "Datetime": "2023-02-04 18:48:22+00:00",
+    "Username": "meganemethArt",
+    "Tweet": "@elonmusk @ElonMusk846 is an account impersonating you. Please get rid of it",
+    "Roberta_neg": "0.8091",
+    "Roberta_neu": "0.1781943",
+    "Roberta_pos": "0.012705658"
+  },
+  {
+    "Id": "67",
+    "Datetime": "2023-02-04 18:48:21+00:00",
+    "Username": "MalleAnand",
+    "Tweet": "If Twitter should be in the first place. 👍👍👍\n\n it is better not to come close to romantic activities\n\nI trust u my boy u are my inspiration\n\n#ElonMusk",
+    "Roberta_neg": "0.02369735",
+    "Roberta_neu": "0.2444796",
+    "Roberta_pos": "0.731823"
+  },
+  {
+    "Id": "68",
+    "Datetime": "2023-02-04 18:48:19+00:00",
+    "Username": "ZRosmery7",
+    "Tweet": "@ccbangtanista Hello @Twitter @TwitterSupport @elonmusk @TwitterKorea please unmute “Taehyung”. Taehyung is not a common word, its the name of one of the BTS member.\n\nTWITTER UNMUTE TAEHYUNG!!",
+    "Roberta_neg": "0.31844229",
+    "Roberta_neu": "0.56447715",
+    "Roberta_pos": "0.11708063"
+  },
+  {
+    "Id": "69",
+    "Datetime": "2023-02-04 18:48:19+00:00",
+    "Username": "maneatingcow23",
+    "Tweet": "@EvasTeslaSPlaid @elonmusk I have no doubt the cybertruck will kill many, many people.",
+    "Roberta_neg": "0.8908435",
+    "Roberta_neu": "0.1016167",
+    "Roberta_pos": "0.007539758"
+  },
+  {
+    "Id": "70",
+    "Datetime": "2023-02-04 18:48:19+00:00",
+    "Username": "4thefade",
+    "Tweet": "@EvasTeslaSPlaid @elonmusk Yea, and the thousands of child slaves in 3rd world nations mining all the cobalt for them is totally worth driving such an ugly piece of sh/t!!!",
+    "Roberta_neg": "0.87892056",
+    "Roberta_neu": "0.10508587",
+    "Roberta_pos": "0.015993658"
+  },
+  {
+    "Id": "71",
+    "Datetime": "2023-02-04 18:48:19+00:00",
+    "Username": "STONKsley",
+    "Tweet": "@BetsyRambo @B4llBust3r @grimsr3ap3r79 @elonmusk @ThierryBreton @CommunityNotes Could you give a link for that? I haven't heard of that\n\nThat would be truly worrying yes",
+    "Roberta_neg": "0.7098526",
+    "Roberta_neu": "0.26351598",
+    "Roberta_pos": "0.026631502"
+  },
+  {
+    "Id": "72",
+    "Datetime": "2023-02-04 18:48:19+00:00",
+    "Username": "Karpas5",
+    "Tweet": "@RobSchneider @elonmusk @BillGates “You should be blowing all your wealth on the exact same thing as I am!”",
+    "Roberta_neg": "0.6846388",
+    "Roberta_neu": "0.26713848",
+    "Roberta_pos": "0.048222754"
+  },
+  {
+    "Id": "73",
+    "Datetime": "2023-02-04 18:48:18+00:00",
+    "Username": "ChrisCoffeeHF",
+    "Tweet": "Day 107 of tweeting this until Ross Ulbricht is no longer in prison! Hey @POTUS  #FreeRoss  it's the right thing to do!  Hey @elonmusk you think you can give us a retweet? It would be very helpful. Any retweets would be helpful. Thanks",
+    "Roberta_neg": "0.011945751",
+    "Roberta_neu": "0.16403486",
+    "Roberta_pos": "0.8240193"
+  },
+  {
+    "Id": "74",
+    "Datetime": "2023-02-04 18:48:18+00:00",
+    "Username": "sillyrob7200",
+    "Tweet": "@hpchlo @coaxialcreature @pn525575 @KarrieboKarrie @Glinner @elonmusk @jo_bartosch Then you're just arguing from a place of anti-intellectual and bigotry. You have no reason to not want the distinction outside of hate.",
+    "Roberta_neg": "0.75228727",
+    "Roberta_neu": "0.23471189",
+    "Roberta_pos": "0.0130009"
+  },
+  {
+    "Id": "75",
+    "Datetime": "2023-02-04 18:48:17+00:00",
+    "Username": "SmoothCat",
+    "Tweet": "@TravisAllen02 @elonmusk Tiktok is literally a Chinese spy operation in plain sight on the lives of millions of Americans and other citizens around the globe..  Bye! https://t.co/tagc47oUQO",
+    "Roberta_neg": "0.8965673",
+    "Roberta_neu": "0.098657496",
+    "Roberta_pos": "0.004775159"
+  },
+  {
+    "Id": "76",
+    "Datetime": "2023-02-04 18:48:17+00:00",
+    "Username": "andereitinia",
+    "Tweet": "Hi @Twitter @TwitterSupport @elonmusk @TwitterKorea please unmute “Taehyung” Taehyung is not a common word, its the name of one of the BTS member.\n\nTWITTER UNMUTE TAEHYUNG",
+    "Roberta_neg": "0.29306552",
+    "Roberta_neu": "0.60707545",
+    "Roberta_pos": "0.099858955"
+  },
+  {
+    "Id": "77",
+    "Datetime": "2023-02-04 18:48:17+00:00",
+    "Username": "ctigeek",
+    "Tweet": "@Twitter  @TwitterSupport @elonmusk  Using the (Android) app is becoming increasingly tedious.\nEvery time I have to switch to Following, then manually refresh to get it to load new posts.",
+    "Roberta_neg": "0.7702083",
+    "Roberta_neu": "0.19657248",
+    "Roberta_pos": "0.03321915"
+  },
+  {
+    "Id": "78",
+    "Datetime": "2023-02-04 18:48:16+00:00",
+    "Username": "wacojenni",
+    "Tweet": "@TedNugent Hahah @elonmusk He said Avian Flu\nBut I Already knew\nI laught but not because this situation is funny but because I already knew",
+    "Roberta_neg": "0.25961214",
+    "Roberta_neu": "0.58343995",
+    "Roberta_pos": "0.15694785"
+  },
+  {
+    "Id": "79",
+    "Datetime": "2023-02-04 18:48:16+00:00",
+    "Username": "AvaJinn",
+    "Tweet": "@elonmusk Can you buy @Steam my account get hacked and their response was we cant do anything.",
+    "Roberta_neg": "0.7871867",
+    "Roberta_neu": "0.20438513",
+    "Roberta_pos": "0.008428139"
+  },
+  {
+    "Id": "80",
+    "Datetime": "2023-02-04 18:48:13+00:00",
+    "Username": "bangtanqueen777",
+    "Tweet": "@winnttaebear @Twitter @TwitterSupport @elonmusk @TwitterKorea Hi @Twitter @TwitterSupport @elonmusk @TwitterKorea please unmute “Taehyung”. Taehyung is not a common word, its the name of one of the BTS member.\n\nTWITTER UNMUTE TAEHYUNG!!",
+    "Roberta_neg": "0.27272615",
+    "Roberta_neu": "0.61189985",
+    "Roberta_pos": "0.11537401"
+  },
+  {
+    "Id": "81",
+    "Datetime": "2023-02-04 18:48:12+00:00",
+    "Username": "uninfluenced365",
+    "Tweet": "@charliekirk11 @Project_Veritas I thought elon musk wasnt going to allow that anymore because he's for 'free speech' #ElonMusk",
+    "Roberta_neg": "0.5183414",
+    "Roberta_neu": "0.45121577",
+    "Roberta_pos": "0.030442815"
+  },
+  {
+    "Id": "82",
+    "Datetime": "2023-02-04 18:48:11+00:00",
+    "Username": "HiveKron",
+    "Tweet": "@Bl3D_Eccentric @elonmusk @SpaceX great work owe. What if they bury only one big pipe under the center of the olm and pump a fair amount of Water there...? I don't know if this works, but it would solve a few Problems I think...",
+    "Roberta_neg": "0.10996473",
+    "Roberta_neu": "0.4341247",
+    "Roberta_pos": "0.45591047"
+  },
+  {
+    "Id": "83",
+    "Datetime": "2023-02-04 18:48:11+00:00",
+    "Username": "Reka_Niewidka",
+    "Tweet": "@GenFlynn @elonmusk @VP @JoeBiden There is another option also.\nTo help \"republicans\" in diverting attention of American public to great economic news, China released balloons. It seem to work as designed.\nMeanwhile...\nhttps://t.co/ikzJYPGXrF",
+    "Roberta_neg": "0.098400615",
+    "Roberta_neu": "0.56853724",
+    "Roberta_pos": "0.33306205"
+  },
+  {
+    "Id": "84",
+    "Datetime": "2023-02-04 18:48:10+00:00",
+    "Username": "MontyUrton",
+    "Tweet": "@elonmusk @TheJackForge What does your emoji mean?\nIt’s on almost everything.",
+    "Roberta_neg": "0.17648037",
+    "Roberta_neu": "0.7394644",
+    "Roberta_pos": "0.08405517"
+  },
+  {
+    "Id": "85",
+    "Datetime": "2023-02-04 18:48:07+00:00",
+    "Username": "TaeHyung1422000",
+    "Tweet": "@tetestream_ Hello @Twitter @TwitterSupport @elonmusk @TwitterKorea please unmute “Taehyung”. Taehyung is not a common word, its the name of one of the BTS member (V). Thank you in advance \n\nTWITTER UNMUTE TAEHYUNG",
+    "Roberta_neg": "0.026786473",
+    "Roberta_neu": "0.40894154",
+    "Roberta_pos": "0.564272"
+  },
+  {
+    "Id": "86",
+    "Datetime": "2023-02-04 18:48:06+00:00",
+    "Username": "Gmanji524",
+    "Tweet": "@EvasTeslaSPlaid @elonmusk Going to guess you run around in Cheetah mode or Drag Strip just for fun…",
+    "Roberta_neg": "0.038395494",
+    "Roberta_neu": "0.75726104",
+    "Roberta_pos": "0.20434345"
+  },
+  {
+    "Id": "87",
+    "Datetime": "2023-02-04 18:48:06+00:00",
+    "Username": "moka_bingsha",
+    "Tweet": "That's too bad! Tesla cars are amazing - here's to hoping she changes her mind soon! #SweetSixteen #ElonMusk #Gift #Tesla",
+    "Roberta_neg": "0.10658259",
+    "Roberta_neu": "0.2497653",
+    "Roberta_pos": "0.643652"
+  },
+  {
+    "Id": "88",
+    "Datetime": "2023-02-04 18:48:05+00:00",
+    "Username": "traveler002",
+    "Tweet": "@Mike24632892 @NickDowdy10 @2024strongTx @GuitrNl @theappocalypso @HarryMi47749146 @PunkinDyer @OldCrow002 @N8theGr8ter @diggihop @Roe50 @Michael_G_RnD @Amer1canKatana @Brenlin01 @MelBabbit @Visitor22 @Wahboom @Lynda63986855 @Interested10101 @AngelAlma10 @robcarlson20 @kcinor @preston7440 @WWillson4 @Crimedog75 @truthsearch1957 @rebelpuss @DennisH59386592 @JacobMcCandle17 @MarilynLavala @Sango_Sing_Song @nightwarrior603 @S51781902 @antoniaiadi @Larryputt @6thgentexan @1AuburnAllie @VivMilanoFSL @MvH6259 @DFBHarvard @Pat300000 @fighting4right @elonmusk @HustusMichael @BurnTheBrighter @KBish0224 @JackieC49305942 @HeavenScent88 We are so far removed from real oppression no one remembers. Legal immigrants from oppressive nations know how bad it can get &amp; are aghast at how far our inaction has allowed our government move toward oppressive control over citizens. https://t.co/sZ5YO2OPtX",
+    "Roberta_neg": "0.69749695",
+    "Roberta_neu": "0.28245863",
+    "Roberta_pos": "0.020044338"
+  },
+  {
+    "Id": "89",
+    "Datetime": "2023-02-04 18:48:05+00:00",
+    "Username": "Chimerawithatw1",
+    "Tweet": "@wapplehouse @EvasTeslaSPlaid @elonmusk Put some weight in the back and turn in 4wd",
+    "Roberta_neg": "0.06418595",
+    "Roberta_neu": "0.85412186",
+    "Roberta_pos": "0.08169224"
+  },
+  {
+    "Id": "90",
+    "Datetime": "2023-02-04 18:48:05+00:00",
+    "Username": "brettseidell",
+    "Tweet": "@elonmusk @cb_doge @Tesla @mayemusk @SpaceX Yes. Yes I.T. I.S. @dogecoin .",
+    "Roberta_neg": "0.002764827",
+    "Roberta_neu": "0.19439252",
+    "Roberta_pos": "0.80284256"
+  },
+  {
+    "Id": "91",
+    "Datetime": "2023-02-04 18:48:04+00:00",
+    "Username": "accemol",
+    "Tweet": "@cooliet Hi @Twitter  @TwitterSupport  @elonmusk @TwitterKorea  please unmute “Taehyung”. Taehyung is not a common word, its the name of one of the BTS member.\n\nTWITTER UNMUTE TAEHYUNG!!",
+    "Roberta_neg": "0.36208835",
+    "Roberta_neu": "0.5347833",
+    "Roberta_pos": "0.10312835"
+  },
+  {
+    "Id": "92",
+    "Datetime": "2023-02-04 18:48:04+00:00",
+    "Username": "ReservoirApps",
+    "Tweet": "Twitter blue \nElon Musk",
+    "Roberta_neg": "0.04371565",
+    "Roberta_neu": "0.7341256",
+    "Roberta_pos": "0.22215874"
+  },
+  {
+    "Id": "93",
+    "Datetime": "2023-02-04 18:48:01+00:00",
+    "Username": "Dulcinea_QX",
+    "Tweet": "@chuckmaddenpics @GenFlynn @elonmusk @VP @JoeBiden Because the sheep can’t see the satellites from here. It’s a PsyOp.",
+    "Roberta_neg": "0.6319375",
+    "Roberta_neu": "0.34153584",
+    "Roberta_pos": "0.026526602"
+  },
+  {
+    "Id": "94",
+    "Datetime": "2023-02-04 18:48:01+00:00",
+    "Username": "parodyTakeDump",
+    "Tweet": "Does Elon Musk smell like chicken? Do turds gamble when you win them?",
+    "Roberta_neg": "0.7054764",
+    "Roberta_neu": "0.27786323",
+    "Roberta_pos": "0.01666041"
+  },
+  {
+    "Id": "95",
+    "Datetime": "2023-02-04 18:48:00+00:00",
+    "Username": "politicalHEDGE",
+    "Tweet": "Elon Musk And Tesla Make an Expected But Unwanted Change https://t.co/qrfTZ03L6u",
+    "Roberta_neg": "0.20355147",
+    "Roberta_neu": "0.6371343",
+    "Roberta_pos": "0.15931422"
+  },
+  {
+    "Id": "96",
+    "Datetime": "2023-02-04 18:47:59+00:00",
+    "Username": "Dandrillw",
+    "Tweet": "@CYBRTRK420 @elonmusk @tesla_europe The silver fox",
+    "Roberta_neg": "0.027810564",
+    "Roberta_neu": "0.8944209",
+    "Roberta_pos": "0.07776862"
+  },
+  {
+    "Id": "97",
+    "Datetime": "2023-02-04 18:47:58+00:00",
+    "Username": "ChrisExpTheNews",
+    "Tweet": "@EvasTeslaSPlaid @elonmusk Just ask to suck his cock and keep your dignity, Jesus",
+    "Roberta_neg": "0.66683173",
+    "Roberta_neu": "0.3044537",
+    "Roberta_pos": "0.028714582"
+  },
+  {
+    "Id": "98",
+    "Datetime": "2023-02-04 18:47:58+00:00",
+    "Username": "Brendaw94197260",
+    "Tweet": "@elonmusk @DriveTeslaca @elonmusk Hello friend, I understand that your company is launching their operations in Kenya this month. I have always wanted to be part of your unprecedented economic prowess. Kindly allow me be part of the time that will be working in Kenya. Am ready for any role.",
+    "Roberta_neg": "0.0034843944",
+    "Roberta_neu": "0.09691769",
+    "Roberta_pos": "0.899598"
+  },
+  {
+    "Id": "99",
+    "Datetime": "2023-02-04 18:47:58+00:00",
+    "Username": "aralia_fresia",
+    "Tweet": "@elonmusk @firesideint Do I have to subscribe to the $8 blue check? I’d rather just send you a money order now and then, independent of all that stuff. Thanks.",
+    "Roberta_neg": "0.15565331",
+    "Roberta_neu": "0.7254961",
+    "Roberta_pos": "0.118850455"
+  },
+  {
+    "Id": "",
+    "Datetime": null,
+    "Username": null,
+    "Tweet": null,
+    "Roberta_neg": null,
+    "Roberta_neu": null,
+    "Roberta_pos": null
+  }
+]
