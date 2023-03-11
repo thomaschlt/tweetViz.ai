@@ -1,0 +1,42 @@
+<head>
+    <style>
+      html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script src="//unpkg.com/3d-force-graph"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+  </head>
+  
+  <body>
+    <div id="3d-graph"></div>
+  
+    <script>
+      var noeuds = [{ id:"1000", id_tweet:"central_node",content:"center", color:"#ffc107"}];
+  
+      d3.csv("mini.csv", function (data) {
+        data.forEach(function (d) {
+            var color = d.id == 1000 ? "#ffc107" : "#007bff";
+            noeuds.push({ id: d.id, id_tweet: d.id_tweet, content:d.rawContent, color:color});
+        });
+
+        var liens = [];
+        for(var k=1; k < noeuds.length; k++){
+          liens.push({source: noeuds[0].id, target: noeuds[k].id});
+        }
+        console.log(liens);
+
+        //Initialisation du graphe 3D avec les noeuds
+        const Graph = ForceGraph3D()(document.getElementById("3d-graph"));
+        
+        Graph.graphData({
+          nodes: noeuds,
+          links: liens,
+        });
+      });
+    </script>
+  </body>
+  
