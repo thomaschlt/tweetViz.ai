@@ -17,7 +17,7 @@
     <script>
       var noeuds = [{ id:"1000", id_tweet:"central_node",content:"center", color:"#ffc107"}];
   
-      d3.csv("mini.csv", function (data) {
+      d3.csv("../data/final.csv", function (data) {
 
         const colorScale = d3.scaleLinear()
         .domain([-1, 0, 1])
