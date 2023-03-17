@@ -57,7 +57,9 @@
         .nodeLabel(node => `${node.content}`)
         .nodeColor(node => node.color)
         .d3Force("center", d3.forceCenter())
+        .onNodeClick(node => window.location.href = `tweetWidget.html?tweet_id=${node.Id_tweet}`);
 
+        
       });
     </script>
   </body>

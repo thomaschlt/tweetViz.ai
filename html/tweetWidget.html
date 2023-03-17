@@ -1,38 +1,43 @@
+<!-- 
+  Lorsqu'un noeud est cliqué, redirige vers cette page pour afficher le tweet en question
+-->
+
 <style>
-    #tweet {
-      width: 400px !important;
-    }
-  
-    #tweet iframe {
-      border: none !important;
-      box-shadow: none !important;
-    }
-  </style>
-  
-  <div id="tweet" tweetID=""></div> <!-- mise en place dynamique plus bas -->
-  
-  <script sync src="https://platform.twitter.com/widgets.js"></script>
-  
-  <script>
-    const queryString = window.location.search;
-    const urlParams = new URLSearchParams(queryString);
-    const nodeId = urlParams.get('tweet_id');
+  #tweet {
+    width: 400px !important;
+  }
 
-    window.onload = function () {
-      var tweet = document.getElementById('tweet');
-      var id = tweet.getAttribute('tweetID');
-      tweet.setAttribute('tweetID', nodeId); // mise à jour dynamique 
+  #tweet iframe {
+    border: none !important;
+    box-shadow: none !important;
+  }
+</style>
 
-      twttr.widgets
-        .createTweet(id, tweet, {
-          conversation: 'none', // none or all
-          cards: 'hidden', // hidden or visible
-          linkColor: '#cc0000', // default is blue - #cc0000
-          theme: 'light', // or dark
-        })
-        .then(function (el) {
-          el.contentDocument.querySelector('.footer').style.display = 'none';
-        });
-    };
-  </script>
-  
+<div id="tweet" tweetID=""></div>
+
+<script sync src="https://platform.twitter.com/widgets.js"></script>
+
+<script>
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  const nodeId = urlParams.get('tweet_id');
+
+  console.log(nodeId) //debug
+
+  window.onload = function () {
+    var tweet = document.getElementById('tweet');
+    tweet.setAttribute('tweetID', nodeId);
+    var id = tweet.getAttribute('tweetID');
+
+    twttr.widgets
+      .createTweet(id, tweet, {
+        conversation: 'none',
+        cards: 'hidden', 
+        linkColor: '#cc0000', 
+        theme: 'light',
+      })
+      .then(function (el) {
+        el.contentDocument.querySelector('.footer').style.display = 'none';
+      });
+  };
+</script>
