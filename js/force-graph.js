@@ -16,7 +16,7 @@ d3.csv("../data/final.csv", function (data) {
     var pos = d.Roberta_pos;
 
     if (neg > pos && neg > neu) {
-      color = colorScale(neg);
+      color = colorScale(-neg);
     } else if (pos > neg && pos > neu) {
       color = colorScale(pos);
     } else {
