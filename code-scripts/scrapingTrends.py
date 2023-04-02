@@ -13,3 +13,9 @@ trends = []
 for trend in trends_container.find_all('span', class_="term"):
     trends.append(trend.text.strip())
 print(trends)
+
+# save the trends to a file
+with open('trends.csv', 'w') as f:
+    f.write("Trends"+'\n')
+    for s in trends:
+        f.write(str(s)+'\n')

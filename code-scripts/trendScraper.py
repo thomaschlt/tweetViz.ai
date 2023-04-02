@@ -6,30 +6,28 @@
 
 ### TO DO ###
 # - add a function to check the size
-
-
 import pandas as pd
 import itertools
 import snscrape.modules.twitter as sntwitter
-import plotly.graph_objects as go
 from datetime import datetime
 
-query = "Biden since:2023-02-23"
 # start_time = datetime.now()
 
-data = pd.DataFrame(itertools.islice(
-    sntwitter.TwitterSearchScraper(query).get_items(), 500))
+
+def scrape_trend(trend: str):
+    # i got no space between the two strings clown clown
+    query = trend + " since:2023-03-20"
+    data = pd.DataFrame(itertools.islice(
+        sntwitter.TwitterSearchScraper(query).get_items(), 500))  # None ?
+    data = data[data.apply(is_english, axis=1)]
+    df = data[['id', 'date', 'rawContent', 'user', 'replyCount',
+               'retweetCount', 'likeCount', 'quoteCount']]
+    df.to_csv(trend + ".csv", index=False)
 
 
 def is_english(tweet):
     return tweet.lang == 'en'
 
-
-data = data[data.apply(is_english, axis=1)]
-
-df = data[['id', 'date', 'rawContent', 'user', 'replyCount',
-           'retweetCount', 'likeCount', 'quoteCount']]
-df.to_csv("testLang.csv")
 # end_time = datetime.now()
 
 # Printing the time duration for scraping these tweets
