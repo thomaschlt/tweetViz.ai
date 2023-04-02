@@ -1,5 +1,5 @@
 var noeuds = [
-  { id: "1000", id_tweet: "central_node", content: "center", color: "#ffc107" },
+  //{ id: "1000", id_tweet: "central_node", content: "center", color: "#ffc107" }, // marche sans le noeud central
 ];
 
 d3.csv("../data/final.csv", function (data) {
@@ -34,11 +34,10 @@ d3.csv("../data/final.csv", function (data) {
   });
 
   var liens = [];
-  for (var k = 1; k < noeuds.length; k++) {
+  for (var k = 1; k < 6; k++) {
     liens.push({ source: noeuds[0].id, target: noeuds[k].id });
   }
-
-  //console.log(liens) - debug
+  liens.push({ source: noeuds[0].id, target: noeuds[1].id });
 
   //Initialisation du graphe 3D avec les noeuds
   const Graph = ForceGraph3D()(document.getElementById("3d-graph"))
@@ -48,7 +47,7 @@ d3.csv("../data/final.csv", function (data) {
     })
     .nodeLabel((node) => `${node.content}`)
     .nodeColor((node) => node.color)
-    .d3Force("center", d3.forceCenter())
+    .d3Force("center", d3.forceCenter()) // adding a repulsion force
     .onNodeClick(
       (node) =>
         (window.location.href = `tweetWidget.html?tweet_id=${node.id_tweet}`)
