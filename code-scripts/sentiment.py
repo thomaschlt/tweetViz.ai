@@ -1,5 +1,18 @@
-# Code Kaggle à mettre ici
-import pandas as pd
+# Code Kaggle à mettre ici quand c'est ok
+from transformers import AutoTokenizer
+from transformers import AutoModelForSequenceClassification
+from spicy import softmax
 
-data = pd.read_csv("mini.csv")
-data.drop(['a'], inplace=True, axis=1)
+MODEL = f"cardiffnlp/twitter-roberta-base-sentiment"
+tokenizer = AutoTokenizer.from_pretrained(MODEL)
+model = AutoModelForSequenceClassification.from_pretrained(MODEL)
+
+
+def predict_tweet(tweet):
+    encoded = tokenizer.encode_plus(tweet, return_tensors='pt')
+    output = model(**encoded)
+    scores = softmax((output[0].detach().numpy()))
+    return scores
+
+
+predict_tweet("Hello world!")
