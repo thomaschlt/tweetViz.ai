@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>My home !</title>
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-        <script type="text/javascript" src="{{ url_for('static', filename='timer.js') }}"></script>
-    </head>
-    <body>
-        <h1>Welcome to my Flask application !</h1>
-        <p>This is the home page.</p>
-        <div id="timer"></div>
-    </body>
+  <head>
+    <meta charset="utf-8">
+    <title>D3.js Graph</title>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="//unpkg.com/3d-force-graph"></script>
+    <script src="{{ url_for('static', filename='js/graph.js') }}"></script>
+
+    <style>
+      #3d-graph {
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="3d-graph"></div>
+  </body>
 </html>
