@@ -18,7 +18,7 @@ def scrape_tweet(trend: str):
     data = data[data.apply(is_english, axis=1)]
     df = data[['id', 'date', 'rawContent', 'user', 'replyCount',
                'retweetCount', 'likeCount', 'quoteCount']]
-    df.to_csv("../static/data/" + trend + ".csv", index=False)
+    df.to_csv("static/data/" + trend + ".csv", index=False)
 
 
 def is_english(tweet: str):

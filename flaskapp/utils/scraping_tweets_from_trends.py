@@ -2,7 +2,7 @@ from scraping_tweets import scrape_tweet
 from csv import reader
 
 
-def scrape_trends_from_file(file_path="trends.csv"):
+def scrape_trends_from_file(file_path="utils/trends.csv"):
     with open(file_path, 'r') as f:
         r = reader(f)
         header = next(r)

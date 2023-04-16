@@ -15,7 +15,7 @@ def scrape_trends(url='https://trendlistz.com/united-states'):
     print(trends)
 
     # Save the trends to a file
-    with open('trends.csv', 'w') as f:
+    with open('utils/trends.csv', 'w') as f:
         f.write("Trends"+'\n')
         for s in trends:
             if '#' in s:
