@@ -27,11 +27,12 @@ xhr.onreadystatechange = function () {
       const links = [];
       const trendCenters = [];
 
-      nodes.push({
-        id: 0,
-        content: "center",
-        color: "#1DA1F2",
-      });
+      const centralNode = {
+        id: "center",
+        content: "Central node",
+        color: "red",
+      };
+      nodes.push(centralNode);
 
       results.forEach(function (data, i) {
         const trend = `trend${i + 1}`;
@@ -46,13 +47,24 @@ xhr.onreadystatechange = function () {
         nodes.push(trendCenter);
         trendCenters.push(trendCenter);
 
+        // Add link from central node to trend center
+        links.push({
+          source: centralNode,
+          target: trendCenter,
+        });
+
         // Create nodes for every trend
         data.forEach(function (d) {
           const node = {
             id: d.id,
-            id_tweet: d.id_tweet,
-            content: d.content,
+            date: d.date,
+            content: d.rawContent,
             trend: trend,
+            user: d.user,
+            reply: d.replyCount,
+            retweet: d.retweetCount,
+            like: d.likeCount,
+            quote: d.quoteCount,
             color: "green",
             links: [],
           };
@@ -72,16 +84,33 @@ xhr.onreadystatechange = function () {
           links: links,
         })
         .nodeLabel(function (node) {
-          return `${node.id}`;
+          return `${node.content}`;
         })
         .nodeColor(function (node) {
           return node.color;
         })
-        .d3Force("center", d3.forceCenter())
-        //.nodeRelSize(5) // Set node size to 5
+        .nodeVal(function (node) {
+          if (node.id === "center" || node.id.includes("_center")) {
+            return 50;
+          }
+        })
+        .linkWidth(1)
+        .linkDirectionalParticles(2)
+        .linkDirectionalParticleSpeed(0.007)
+        .nodeOpacity(0.75)
         .onNodeClick(function (node) {
-          console.log(node.rawContent);
-        });
+          // Center the graph on the clicked node
+          Graph.cameraPosition(
+            {
+              x: node.x,
+              y: node.y,
+              z: node.z + 150,
+            },
+            node,
+            1000
+          );
+        })
+        .d3Force("center", d3.forceCenter());
     });
   }
 };

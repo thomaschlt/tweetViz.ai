@@ -19,11 +19,21 @@ def home():
     return render_template("home.html")
 
 
+@app.route("/loading")
+def loading():
+    return render_template("loading.html")
+
+
+@app.route("/graph", methods=['POST'])
+def graph():
+    return render_template("graph.html")
+
+
 @app.route("/execute_script", methods=['POST'])
 def execute_script():
     script_path = os.path.abspath('utils/exec_code_fragments.py')
     os.system('python ' + script_path)
-    return 'Script executed successfully!'
+    return render_template("graph.html")
 
 
 if __name__ == "__main__":

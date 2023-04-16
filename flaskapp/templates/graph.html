@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>D3.js Graph</title>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="//unpkg.com/3d-force-graph"></script>
+    <script src="{{ url_for('static', filename='js/graph.js') }}"></script>
+
+    <style>
+      #3d-graph {
+        height: 80%;
+        width: 80%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="3d-graph"></div>
+    <form action="/execute_script" method="post">
+        <input type="submit" value="I want new data">
+    </form>
+  </body>
+</html>

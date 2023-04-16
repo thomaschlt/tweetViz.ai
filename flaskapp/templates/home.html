@@ -2,11 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>D3.js Graph</title>
-    <script src="https://d3js.org/d3.v4.min.js"></script>
-    <script src="//unpkg.com/3d-force-graph"></script>
-    <script src="{{ url_for('static', filename='js/graph.js') }}"></script>
-
+    <title></title>
     <style>
       #3d-graph {
         height: 100%;
@@ -15,12 +11,9 @@
     </style>
   </head>
   <body>
-    <h1>Execute Script</h1>
-    <form action="/execute_script" method="post">
-      <input type="submit" value="Execute Script">
+    <h1>Launch the visualisation</h1>
+    <form action="/graph" method="post">
+      <input type="submit" value="Get started">
   </form>
-  <button type="button" onclick="location.href='/close_app'">Close App</button>
-
-    <div id="3d-graph"></div>
   </body>
 </html>
