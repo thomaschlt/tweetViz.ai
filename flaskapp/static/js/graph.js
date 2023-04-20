@@ -29,18 +29,19 @@ xhr.onreadystatechange = function () {
 
       const centralNode = {
         id: "center",
-        content: "Central node",
+        content: "Twitter Trends",
         color: "red",
       };
       nodes.push(centralNode);
 
       results.forEach(function (data, i) {
-        const trend = `trend${i + 1}`;
+        const filename = files[i].split("/").pop().replace(".csv", "");
+        const trend = `trend_${filename}`;
 
         // Add trend center node to nodes array
         const trendCenter = {
           id: `${trend}_center`,
-          content: `${trend} Center`,
+          content: `${filename} `,
           color: centerColorScale(i),
         };
 
@@ -111,6 +112,56 @@ xhr.onreadystatechange = function () {
           );
         })
         .d3Force("center", d3.forceCenter());
+
+      // controls
+      const gui = new dat.GUI();
+      // Add button control
+      const executeButton = {
+        execute: function () {
+          executeScript();
+        },
+      };
+      gui.add(executeButton, "execute").name("Reload the data");
+      gui
+        .add(
+          {
+            restart: function () {
+              location.reload();
+            },
+          },
+          "restart"
+        )
+        .name("Reload the graph");
+
+      // Function to execute script
+      // function executeScript() {
+      //   // Use AJAX to POST request to Flask route "/execute_script"
+      //   const xhr = new XMLHttpRequest();
+      //   xhr.open("POST", "/execute_script", true);
+      //   xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+      //   xhr.onreadystatechange = function () {
+      //     if (xhr.readyState === 4 && xhr.status === 200) {
+      //       // Reload the page once the script has finished executing
+      //       location.reload();
+      //     }
+      //   };
+      //   xhr.send(JSON.stringify({}));
+      // }
+
+      // Add button control
+      const homeButton = {
+        goToHome: function () {
+          window.location.href = "/";
+        },
+      };
+      // const myObject = {
+      //   numTrends: 5,
+      // };
+      // gui
+      //   .add(myObject, "numTrends", [5, 10, 15, 20, 25, 30])
+      //   .name("Number of Trends");
+
+      gui.add(homeButton, "goToHome").name("Go to Home");
     });
   }
 };

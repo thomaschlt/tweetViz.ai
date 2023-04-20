@@ -19,11 +19,6 @@ def home():
     return render_template("home.html")
 
 
-@app.route("/loading")
-def loading():
-    return render_template("loading.html")
-
-
 @app.route("/graph", methods=['POST'])
 def graph():
     return render_template("graph.html")
