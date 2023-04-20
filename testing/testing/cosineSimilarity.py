@@ -1,8 +1,8 @@
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import CountVectorizer
 
-string1 = "What Biden is so dumb ?"
-string2 = "Omg ! Biden is so stupid !"
+string1 = "Can i have an ice cream ?"
+string2 = "I really wanna an ice cream !"
 
 vectorizer = CountVectorizer().fit_transform([string1, string2])
 

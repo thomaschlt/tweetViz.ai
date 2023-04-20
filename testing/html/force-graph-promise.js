@@ -1,15 +1,13 @@
 // Define the list of CSV files
 const files = [
-  "test1.csv",
-  "test2.csv",
-  "test3.csv",
-  "test4.csv",
-  "test5.csv",
-
-  // add more files as needed
+  "../data/trends-now/Persian.csv",
+  "../data/trends-now/Providence.csv",
+  "../data/trends-now/Rick Pitino.csv",
+  "../data/trends-now/Sherfield.csv",
+  "../data/trends-now/Spring.csv",
+  "../data/trends-now/St. John.csv",
+  "../data/trends-now/Tamar.csv",
 ];
-// debug
-//console.log(files);
 
 // Create a queue to load and process the CSV files
 const q = d3.queue();
@@ -19,8 +17,10 @@ files.forEach(function (file) {
   q.defer(d3.csv, file);
 });
 
-// Define colors for each trend
-const colors = ["#ff0000", "#00ff00", "#0000ff"];
+// Define a color scale for the trendCenter nodes
+const centerColorScale = d3
+  .scaleOrdinal(d3.schemeCategory20)
+  .domain(d3.range(files.length));
 
 // Run the queue
 q.awaitAll(function (error, results) {
@@ -32,6 +32,11 @@ q.awaitAll(function (error, results) {
   const trendCenters = [];
 
   console.log(results);
+  nodes.push({
+    id: 0,
+    content: "center",
+    color: "#1DA1F2",
+  });
 
   results.forEach(function (data, i) {
     //console.log(data);
@@ -41,7 +46,7 @@ q.awaitAll(function (error, results) {
     const trendCenter = {
       id: `${trend}_center`,
       content: `${trend} Center`,
-      color: "#ffc107",
+      color: centerColorScale(i),
     };
 
     nodes.push(trendCenter);
@@ -57,7 +62,7 @@ q.awaitAll(function (error, results) {
         id_tweet: d.id_tweet,
         content: d.content,
         trend: trend,
-        color: colors[i],
+        color: "green",
         links: [],
       };
       nodes.push(node);
@@ -69,51 +74,13 @@ q.awaitAll(function (error, results) {
     });
 
     // Add links between trend centers also
-
-    // for (k = 0; k < trendCenters.length - 1; k++) {
+    // for (k = 0; k < trendCenters.length; k++) {
     //   links.push({
-    //     source: trendCenters[k].id,
-    //     target: trendCenters[k + 1].id,
+    //     source: nodes[0],
+    //     target: trendCenters[k],
     //   });
-    //   console.log("coucou" + k);
     // }
-    // links.push({
-    //   souce: trendCenters[trendCenters.length - 1].id,
-    //   target: trendCenters[0].id,
-    //});
-
-    // Create links between nodes of the current trend and its center
-    // data.forEach(function (d) {
-    //   links.push({
-    //     source: d.id,
-    //     target: trendCenter.id,
-    //   });
-    // });
   });
-
-  // const trends = {};
-  // nodes.forEach(function (node) {
-  //   if (node.id.startsWith("trend")) {
-  //     trends[node.id] = node;
-  //   } else {
-  //     const trend = node.trend;
-  //     if (trends[trend]) {
-  //       trends[trend].push(node);
-  //     } else {
-  //       trends[trend] = [node];
-  //     }
-  //   }
-  // });
-
-  // console.log(trends);
-  // console.log(typeof nodes);
-
-  // const center = nodes[0];
-  // Object.values(nodes)
-  //   .slice(1)
-  //   .forEach((node) => {
-  //     links.push({ source: center, target: node });
-  //   });
 
   // Create force graph
   const Graph = ForceGraph3D()(document.getElementById("3d-graph"))
@@ -128,6 +95,7 @@ q.awaitAll(function (error, results) {
       return node.color;
     })
     .d3Force("center", d3.forceCenter())
+    //.nodeRelSize(5) // Set node size to 5
     .onNodeClick(function (node) {
       console.log(node.rawContent);
     });

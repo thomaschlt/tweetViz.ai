@@ -18,6 +18,11 @@ xhr.onreadystatechange = function () {
       .scaleOrdinal(d3.schemeCategory20)
       .domain(d3.range(files.length));
 
+    const colorScale = d3
+      .scaleLinear()
+      .domain([-1, 0, 1])
+      .range(["red", "yellow", "green"]);
+
     // Run the queue
     q.awaitAll(function (error, results) {
       if (error) throw error;
@@ -56,6 +61,19 @@ xhr.onreadystatechange = function () {
 
         // Create nodes for every trend
         data.forEach(function (d) {
+          var color;
+          var neg = d.Roberta_neg;
+          var neu = d.Roberta_neu;
+          var pos = d.Roberta_pos;
+
+          if (neg > pos && neg > neu) {
+            color = colorScale(-neg);
+          } else if (pos > neg && pos > neu) {
+            color = colorScale(pos);
+          } else {
+            color = colorScale(neu);
+          }
+
           const node = {
             id: d.id,
             date: d.date,
@@ -66,7 +84,10 @@ xhr.onreadystatechange = function () {
             retweet: d.retweetCount,
             like: d.likeCount,
             quote: d.quoteCount,
-            color: "green",
+            neg: neg,
+            neu: neu,
+            pos: pos,
+            color: color,
             links: [],
           };
           nodes.push(node);
@@ -133,20 +154,20 @@ xhr.onreadystatechange = function () {
         )
         .name("Reload the graph");
 
-      // Function to execute script
-      // function executeScript() {
-      //   // Use AJAX to POST request to Flask route "/execute_script"
-      //   const xhr = new XMLHttpRequest();
-      //   xhr.open("POST", "/execute_script", true);
-      //   xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
-      //   xhr.onreadystatechange = function () {
-      //     if (xhr.readyState === 4 && xhr.status === 200) {
-      //       // Reload the page once the script has finished executing
-      //       location.reload();
-      //     }
-      //   };
-      //   xhr.send(JSON.stringify({}));
-      // }
+      //Function to execute script
+      function executeScript() {
+        // Use AJAX to POST request to Flask route "/execute_script"
+        const xhr = new XMLHttpRequest();
+        xhr.open("POST", "/execute_script", true);
+        xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+        xhr.onreadystatechange = function () {
+          if (xhr.readyState === 4 && xhr.status === 200) {
+            // Reload the page once the script has finished executing
+            location.reload();
+          }
+        };
+        xhr.send(JSON.stringify({}));
+      }
 
       // Add button control
       const homeButton = {

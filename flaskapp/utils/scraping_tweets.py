@@ -3,12 +3,12 @@
 # Creation: 2023-01-24
 # Last review : 2023 - 03 - 25
 
-# Path : flaskapp/utils/scraping_trends.py
-
+# Path : flaskapp/utils/scraping_tweets.py
 import pandas as pd
 import itertools
 import snscrape.modules.twitter as sntwitter
 from datetime import datetime
+from sentiment_analysis import predict_tweet
 
 
 def scrape_tweet(trend: str):
