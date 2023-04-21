@@ -13,6 +13,7 @@ contourpy==1.0.6
 cssselect==1.2.0
 cycler==0.11.0
 cymem==2.0.7
+distlib==0.3.6
 dm-tree==0.1.8
 et-xmlfile==1.1.0
 etils==1.2.0
@@ -20,6 +21,8 @@ filelock==3.9.0
 Flask==2.2.2
 flax==0.6.8
 fonttools==4.38.0
+GetOldTweets3==0.0.11
+gunicorn==20.1.0
 huggingface-hub==0.12.0
 idna==3.4
 importlib-resources==5.12.0
@@ -55,6 +58,7 @@ pandas==1.5.2
 pandas-stubs==1.5.2.221213
 pathy==0.10.1
 Pillow==9.3.0
+platformdirs==3.2.0
 plotly==5.13.0
 preshed==3.0.8
 pycodestyle==2.10.0
@@ -73,6 +77,8 @@ rich==13.3.3
 scikit-learn==1.2.2
 scipy==1.10.1
 seaborn==0.12.1
+semantic-version==2.10.0
+setuptools-rust==1.5.2
 six==1.16.0
 smart-open==6.3.0
 snscrape==0.6.2.20230320
@@ -92,9 +98,11 @@ toolz==0.12.0
 torch==2.0.0
 tqdm==4.64.1
 transformers==4.27.4
+tweepy==4.12.1
 typer==0.7.0
 types-pytz==2022.7.0.0
 typing_extensions==4.4.0
 urllib3==1.26.13
+virtualenv==20.21.0
 wasabi==1.1.1
 Werkzeug==2.2.2
