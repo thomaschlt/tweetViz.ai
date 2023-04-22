@@ -9,7 +9,7 @@ def scrape_trends(url='https://trendlistz.com/united-states'):
     trends_container = soup.find('ol', class_='trend-list card')
     trends = []
     for i, trend in enumerate(trends_container.find_all('span', class_="term")):
-        if i >= 3:
+        if i >= 1:
             break
         trends.append(trend.text.strip())
     print(trends)

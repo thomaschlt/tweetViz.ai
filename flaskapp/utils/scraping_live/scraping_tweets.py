@@ -37,4 +37,4 @@ def is_english(tweet: str):
     return tweet.lang == 'en'
 
 
-scrape_tweet("Maguire")
+scrape_tweet("bitcoin")
