@@ -149,8 +149,9 @@ xhr.onreadystatechange = function () {
       .then((response) => response.json())
       .then((data) => {
         const folders = data.folders;
+        console.log(folders);
         const controller = gui
-          .add({ option: folders[0] }, "option", folders)
+          .add({ option: "2021-August-trends" }, "option", folders)
           .name("Select a folder");
 
         // Modify the onChange function to get the CSV files for the selected folder
@@ -160,6 +161,7 @@ xhr.onreadystatechange = function () {
             .then((data) => {
               const files = data.files;
               createForceGraph(files);
+              console.log(files);
             });
         });
       });
