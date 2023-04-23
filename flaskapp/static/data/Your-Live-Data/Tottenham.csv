@@ -1,12 +1,76 @@
 tweet_id,tweet_datetime,tweet_text,searched_by_hashtag,user_name,retweet_count,Roberta_neg,Roberta_neu,Roberta_pos
-1,0,Tottenham have changed their logo after Newcastle match 😹,Tottenham,twitter user,0,0.27772093,0.67677355,0.045505546
-2,0,"No, Levy said that Harry is going to win trophies with Tottenham 🤣",Tottenham,twitter user,0,0.091181055,0.65527564,0.2535433
-3,0,Double win for Newcastle United... The boys trashed Tottenham 6-1... and the girls? They finished off Leeds United 5-!,Tottenham,twitter user,0,0.005367791,0.19914182,0.7954903
-4,0,Loosing 6-1 but Harry Kane scoring a goal is the definition of Tottenham.,Tottenham,twitter user,0,0.22575864,0.5925784,0.18166296
-5,0,"Lol we actually miss prime Danny Rose
+1,0,"2 tickets to Beyoncé at Tottenham Hotspur Stadium - Tottenham, 04 Jun, face value (plus fees). Buy with protection: twickets.live/block/95538970…",Tottenham,twitter user,0,0.02740375,0.66911286,0.3034834
+2,0,"2 tickets to Beyoncé at Tottenham Hotspur Stadium - Tottenham, 04 Jun, face value (plus fees). Buy with protection: twickets.live/block/95538970…",Tottenham,twitter user,0,0.02740375,0.66911286,0.3034834
+3,0,"For reals tho😂 while some fans have been bantering Tottenham, I've just been thinking about what happens when Arsenal goes there next two weeks..",Tottenham,twitter user,0,0.29394102,0.62652045,0.079538584
+4,0,"No point in staying. This afternoon was utterly spineless from all XI on the pitch. Tottenham are broken, need a complete rebuild from GK through the other ten.",Tottenham,twitter user,0,0.8929286,0.09725927,0.009812094
+5,0,"Worst part is that nothing will come out of this. Fans will not arrange a proper large protest, #Levy will continue to ignore it like it never happened and @SpursOfficial will put out some dogsh*t soy tweet in the morning like ""We go again 💪""... #THFC #Tottenham",Tottenham,twitter user,0,0.9150804,0.07654571,0.008373854
+6,0,[Dan Kilpatrick] Fraser Forster on at halftime for Spurs captain Hugo Lloris #TTID #COYS #THFC teddit.net/r/coys/comments/1…,Tottenham,twitter user,0,0.07230708,0.89630806,0.031384822
+7,0,My friend did her PB at her first London Marathon. West Ham thrashed Bournemouth. Tottenham were battered. If Carlsberg did Sundays. 😮‍💨❤️,Tottenham,twitter user,0,0.006353908,0.13546169,0.85818434
+8,0,"Sevilla central defender being eyed by Tottenham for summer move
+#THFC #COYS
+sportsrooter.com/2023/04/sev…",Tottenham,twitter user,0,0.04509424,0.91736215,0.037543654
+9,0,Bless him. And the others that helped. Did a car just drive off ? Wow. Shame on them.,Tottenham,twitter user,0,0.7361238,0.21772957,0.04614653
+10,0,A way only Manchester City and Arsenal do.,Tottenham,twitter user,0,0.05467578,0.7213082,0.22401603
+11,0,"“FC Hotspur of Tottenham” anyone?
 
-#COYS",Tottenham,twitter user,0,0.5134391,0.39445588,0.09210505
-6,0,Tottenham Hotspur captain Hugo Lloris described his side's heavy loss to Newcastle United in the Premier League on Sunday 'embarrassing' and issued an apology to fans for the 6-1 loss.,Tottenham,twitter user,0,0.66371125,0.31024262,0.026046155
-7,0,"A look at #Tottenham’s worst losses following 6-1 hammering at #Newcastle
-#PremierLeague 🏆
-footballmad.co.uk/a-look-at-…",Tottenham,twitter user,0,0.6935967,0.2832432,0.02316002
+Who’s in? #THFC",Tottenham,twitter user,0,0.08749097,0.8346652,0.0778438
+12,0,"2 tickets to Beyoncé at Tottenham Hotspur Stadium - Tottenham, 04 Jun, face value (plus fees). Buy with protection: twickets.live/block/95538970…",Tottenham,twitter user,0,0.02740375,0.66911286,0.3034834
+13,0,"2 tickets to Beyoncé at Tottenham Hotspur Stadium - Tottenham, 04 Jun, face value (plus fees). Buy with protection: twickets.live/block/95538970…",Tottenham,twitter user,0,0.02740375,0.66911286,0.3034834
+14,0,"For reals tho😂 while some fans have been bantering Tottenham, I've just been thinking about what happens when Arsenal goes there next two weeks..",Tottenham,twitter user,0,0.29394102,0.62652045,0.079538584
+15,0,"No point in staying. This afternoon was utterly spineless from all XI on the pitch. Tottenham are broken, need a complete rebuild from GK through the other ten.",Tottenham,twitter user,0,0.8929286,0.09725927,0.009812094
+16,0,"Worst part is that nothing will come out of this. Fans will not arrange a proper large protest, #Levy will continue to ignore it like it never happened and @SpursOfficial will put out some dogsh*t soy tweet in the morning like ""We go again 💪""... #THFC #Tottenham",Tottenham,twitter user,0,0.9150804,0.07654571,0.008373854
+17,0,[Dan Kilpatrick] Fraser Forster on at halftime for Spurs captain Hugo Lloris #TTID #COYS #THFC teddit.net/r/coys/comments/1…,Tottenham,twitter user,0,0.07230708,0.89630806,0.031384822
+18,0,My friend did her PB at her first London Marathon. West Ham thrashed Bournemouth. Tottenham were battered. If Carlsberg did Sundays. 😮‍💨❤️,Tottenham,twitter user,0,0.006353908,0.13546169,0.85818434
+19,0,"Sevilla central defender being eyed by Tottenham for summer move
+#THFC #COYS
+sportsrooter.com/2023/04/sev…",Tottenham,twitter user,0,0.04509424,0.91736215,0.037543654
+20,0,Bless him. And the others that helped. Did a car just drive off ? Wow. Shame on them.,Tottenham,twitter user,0,0.7361238,0.21772957,0.04614653
+21,0,A way only Manchester City and Arsenal do.,Tottenham,twitter user,0,0.05467578,0.7213082,0.22401603
+22,0,"“FC Hotspur of Tottenham” anyone?
+
+Who’s in? #THFC",Tottenham,twitter user,0,0.08749097,0.8346652,0.0778438
+23,0,"2 tickets to Beyoncé at Tottenham Hotspur Stadium - Tottenham, 04 Jun, face value (plus fees). Buy with protection: twickets.live/block/95538970…",Tottenham,twitter user,0,0.02740375,0.66911286,0.3034834
+24,0,"2 tickets to Beyoncé at Tottenham Hotspur Stadium - Tottenham, 04 Jun, face value (plus fees). Buy with protection: twickets.live/block/95538970…",Tottenham,twitter user,0,0.02740375,0.66911286,0.3034834
+25,0,"For reals tho😂 while some fans have been bantering Tottenham, I've just been thinking about what happens when Arsenal goes there next two weeks..",Tottenham,twitter user,0,0.29394102,0.62652045,0.079538584
+26,0,"No point in staying. This afternoon was utterly spineless from all XI on the pitch. Tottenham are broken, need a complete rebuild from GK through the other ten.",Tottenham,twitter user,0,0.8929286,0.09725927,0.009812094
+27,0,"Worst part is that nothing will come out of this. Fans will not arrange a proper large protest, #Levy will continue to ignore it like it never happened and @SpursOfficial will put out some dogsh*t soy tweet in the morning like ""We go again 💪""... #THFC #Tottenham",Tottenham,twitter user,0,0.9150804,0.07654571,0.008373854
+28,0,[Dan Kilpatrick] Fraser Forster on at halftime for Spurs captain Hugo Lloris #TTID #COYS #THFC teddit.net/r/coys/comments/1…,Tottenham,twitter user,0,0.07230708,0.89630806,0.031384822
+29,0,My friend did her PB at her first London Marathon. West Ham thrashed Bournemouth. Tottenham were battered. If Carlsberg did Sundays. 😮‍💨❤️,Tottenham,twitter user,0,0.006353908,0.13546169,0.85818434
+30,0,"Sevilla central defender being eyed by Tottenham for summer move
+#THFC #COYS
+sportsrooter.com/2023/04/sev…",Tottenham,twitter user,0,0.04509424,0.91736215,0.037543654
+31,0,Bless him. And the others that helped. Did a car just drive off ? Wow. Shame on them.,Tottenham,twitter user,0,0.7361238,0.21772957,0.04614653
+32,0,A way only Manchester City and Arsenal do.,Tottenham,twitter user,0,0.05467578,0.7213082,0.22401603
+33,0,"“FC Hotspur of Tottenham” anyone?
+
+Who’s in? #THFC",Tottenham,twitter user,0,0.08749097,0.8346652,0.0778438
+34,0,"2 tickets to Beyoncé at Tottenham Hotspur Stadium - Tottenham, 04 Jun, face value (plus fees). Buy with protection: twickets.live/block/95538970…",Tottenham,twitter user,0,0.02740375,0.66911286,0.3034834
+35,0,"2 tickets to Beyoncé at Tottenham Hotspur Stadium - Tottenham, 04 Jun, face value (plus fees). Buy with protection: twickets.live/block/95538970…",Tottenham,twitter user,0,0.02740375,0.66911286,0.3034834
+36,0,"For reals tho😂 while some fans have been bantering Tottenham, I've just been thinking about what happens when Arsenal goes there next two weeks..",Tottenham,twitter user,0,0.29394102,0.62652045,0.079538584
+37,0,"No point in staying. This afternoon was utterly spineless from all XI on the pitch. Tottenham are broken, need a complete rebuild from GK through the other ten.",Tottenham,twitter user,0,0.8929286,0.09725927,0.009812094
+38,0,"Worst part is that nothing will come out of this. Fans will not arrange a proper large protest, #Levy will continue to ignore it like it never happened and @SpursOfficial will put out some dogsh*t soy tweet in the morning like ""We go again 💪""... #THFC #Tottenham",Tottenham,twitter user,0,0.9150804,0.07654571,0.008373854
+39,0,[Dan Kilpatrick] Fraser Forster on at halftime for Spurs captain Hugo Lloris #TTID #COYS #THFC teddit.net/r/coys/comments/1…,Tottenham,twitter user,0,0.07230708,0.89630806,0.031384822
+40,0,My friend did her PB at her first London Marathon. West Ham thrashed Bournemouth. Tottenham were battered. If Carlsberg did Sundays. 😮‍💨❤️,Tottenham,twitter user,0,0.006353908,0.13546169,0.85818434
+41,0,"Sevilla central defender being eyed by Tottenham for summer move
+#THFC #COYS
+sportsrooter.com/2023/04/sev…",Tottenham,twitter user,0,0.04509424,0.91736215,0.037543654
+42,0,Bless him. And the others that helped. Did a car just drive off ? Wow. Shame on them.,Tottenham,twitter user,0,0.7361238,0.21772957,0.04614653
+43,0,A way only Manchester City and Arsenal do.,Tottenham,twitter user,0,0.05467578,0.7213082,0.22401603
+44,0,"“FC Hotspur of Tottenham” anyone?
+
+Who’s in? #THFC",Tottenham,twitter user,0,0.08749097,0.8346652,0.0778438
+45,0,"2 tickets to Beyoncé at Tottenham Hotspur Stadium - Tottenham, 04 Jun, face value (plus fees). Buy with protection: twickets.live/block/95538970…",Tottenham,twitter user,0,0.02740375,0.66911286,0.3034834
+46,0,"2 tickets to Beyoncé at Tottenham Hotspur Stadium - Tottenham, 04 Jun, face value (plus fees). Buy with protection: twickets.live/block/95538970…",Tottenham,twitter user,0,0.02740375,0.66911286,0.3034834
+47,0,"For reals tho😂 while some fans have been bantering Tottenham, I've just been thinking about what happens when Arsenal goes there next two weeks..",Tottenham,twitter user,0,0.29394102,0.62652045,0.079538584
+48,0,"No point in staying. This afternoon was utterly spineless from all XI on the pitch. Tottenham are broken, need a complete rebuild from GK through the other ten.",Tottenham,twitter user,0,0.8929286,0.09725927,0.009812094
+49,0,"Worst part is that nothing will come out of this. Fans will not arrange a proper large protest, #Levy will continue to ignore it like it never happened and @SpursOfficial will put out some dogsh*t soy tweet in the morning like ""We go again 💪""... #THFC #Tottenham",Tottenham,twitter user,0,0.9150804,0.07654571,0.008373854
+50,0,[Dan Kilpatrick] Fraser Forster on at halftime for Spurs captain Hugo Lloris #TTID #COYS #THFC teddit.net/r/coys/comments/1…,Tottenham,twitter user,0,0.07230708,0.89630806,0.031384822
+51,0,My friend did her PB at her first London Marathon. West Ham thrashed Bournemouth. Tottenham were battered. If Carlsberg did Sundays. 😮‍💨❤️,Tottenham,twitter user,0,0.006353908,0.13546169,0.85818434
+52,0,"Sevilla central defender being eyed by Tottenham for summer move
+#THFC #COYS
+sportsrooter.com/2023/04/sev…",Tottenham,twitter user,0,0.04509424,0.91736215,0.037543654
+53,0,Bless him. And the others that helped. Did a car just drive off ? Wow. Shame on them.,Tottenham,twitter user,0,0.7361238,0.21772957,0.04614653
+54,0,A way only Manchester City and Arsenal do.,Tottenham,twitter user,0,0.05467578,0.7213082,0.22401603
+55,0,"“FC Hotspur of Tottenham” anyone?
+
+Who’s in? #THFC",Tottenham,twitter user,0,0.08749097,0.8346652,0.0778438

@@ -23,16 +23,20 @@ def scrape_tweets(trend):
     pos = []
     tweets = []
 
-    for i, tweet in enumerate(tweet_container.find_all('div', class_="tweet-content media-body")):
-        if i >= 20:
-            break
-        tweet = tweet.text.strip()
-        if (is_english(tweet)):
-            tweets.append(tweet)
-            scores = predict_tweet(tweet)
-            neg.append(scores[0])
-            neu.append(scores[1])
-            pos.append(scores[2])
+    for k in range(5):
+        for i, tweet in enumerate(tweet_container.find_all('div', class_="tweet-content media-body")):
+            if i >= 30:
+                break
+            tweet = tweet.text.strip()
+            if (is_english(tweet)):
+                tweets.append(tweet)
+                scores = predict_tweet(tweet)
+                neg.append(scores[0])
+                neu.append(scores[1])
+                pos.append(scores[2])
+
+        time.sleep(5)
+
     with open(f"static/data/Your-Live-Data/{trend}.csv", 'w', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(["tweet_id", "tweet_datetime", "tweet_text", "searched_by_hashtag", "user_name", "retweet_count", "Roberta_neg",
