@@ -1,0 +1,12 @@
+tweet_id,tweet_datetime,tweet_text,searched_by_hashtag,user_name,retweet_count,Roberta_neg,Roberta_neu,Roberta_pos
+1,0,Tottenham have changed their logo after Newcastle match 😹,Tottenham,twitter user,0,0.27772093,0.67677355,0.045505546
+2,0,"No, Levy said that Harry is going to win trophies with Tottenham 🤣",Tottenham,twitter user,0,0.091181055,0.65527564,0.2535433
+3,0,Double win for Newcastle United... The boys trashed Tottenham 6-1... and the girls? They finished off Leeds United 5-!,Tottenham,twitter user,0,0.005367791,0.19914182,0.7954903
+4,0,Loosing 6-1 but Harry Kane scoring a goal is the definition of Tottenham.,Tottenham,twitter user,0,0.22575864,0.5925784,0.18166296
+5,0,"Lol we actually miss prime Danny Rose
+
+#COYS",Tottenham,twitter user,0,0.5134391,0.39445588,0.09210505
+6,0,Tottenham Hotspur captain Hugo Lloris described his side's heavy loss to Newcastle United in the Premier League on Sunday 'embarrassing' and issued an apology to fans for the 6-1 loss.,Tottenham,twitter user,0,0.66371125,0.31024262,0.026046155
+7,0,"A look at #Tottenham’s worst losses following 6-1 hammering at #Newcastle
+#PremierLeague 🏆
+footballmad.co.uk/a-look-at-…",Tottenham,twitter user,0,0.6935967,0.2832432,0.02316002

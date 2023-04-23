@@ -33,12 +33,11 @@ def graph():
     return render_template("graph.html")
 
 
-# Was used to execute the script that generates the CSV files from scraping the tweets
-# @app.route("/execute_script", methods=['POST'])
-# def execute_script():
-#     script_path = os.path.abspath('utils/exec_code_fragments.py')
-#     os.system('python3 ' + script_path)
-#     return render_template("graph.html")
+@app.route("/execute_script", methods=['POST'])
+def execute_script():
+    script_path = os.path.abspath('utils/exec_code_fragments.py')
+    os.system('python3 ' + script_path)
+    return render_template("graph.html")
 
 
 if __name__ == "__main__":

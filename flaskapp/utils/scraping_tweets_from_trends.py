@@ -1,5 +1,6 @@
-from scraping_tweets import scrape_tweet
+from scraping_tweets import scrape_tweets
 from csv import reader
+import time
 
 
 def scrape_trends_from_file(file_path="utils/trends.csv"):
@@ -8,4 +9,4 @@ def scrape_trends_from_file(file_path="utils/trends.csv"):
         header = next(r)
         if header != None:
             for row in r:
-                scrape_tweet(row[0])
+                scrape_tweets(row[0])

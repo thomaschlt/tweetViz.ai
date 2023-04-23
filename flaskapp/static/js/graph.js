@@ -138,12 +138,31 @@ xhr.onreadystatechange = function () {
     // controls
     const gui = new dat.GUI();
     // Add button control
-    // const executeButton = {
-    //   execute: function () {
-    //     executeScript();
-    //   },
-    // };
-    // gui.add(executeButton, "execute").name("Reload the data");
+
+    const executeButton = {
+      execute: function () {
+        executeScript();
+      },
+    };
+
+    const executeScript = () => {
+      fetch("/execute_script", {
+        method: "POST",
+      })
+        .then((response) => {
+          if (response.ok) {
+            alert("Your data has been updated!");
+          } else {
+            alert("Please try again!");
+          }
+        })
+        .catch((error) => {
+          console.error("Error executing script:", error);
+          alert("Error executing script!");
+        });
+    };
+
+    gui.add(executeButton, "execute").name("Refresh Data");
 
     fetch("/folders")
       .then((response) => response.json())
