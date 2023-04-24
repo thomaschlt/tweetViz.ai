@@ -12,6 +12,7 @@ To get started with this project, follow these steps:
 
 ```
 $ git clone https://github.com/thomaschlt/tweetViz.ai.git
+$ cd tweetViz.ai (if you are not into the folder)
 $ cd flaskapp 
 ```
 
