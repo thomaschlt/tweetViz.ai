@@ -1,7 +1,7 @@
-# Purpose: Collecting tweets from Twitter using snscrape
-# Author:  Thomas Chimbault
+# But: Collecte des tweets pour une certaine tendance à l'aide de mon propre scraper.
+# Auteur:  Thomas Chimbault
 # Creation: 2023-01-24
-# Last review : 2023 - 03 - 25
+# Dernière mise à jour : 2023 - 04 - 23
 
 # Path : flaskapp/utils/scraping_tweets.py
 import time

@@ -1,3 +1,10 @@
+# But: Appelle la fonction scrape_tweets() sur les tendances enregistrées dans le fichier 'trends.csv'
+# Auteur:  Thomas Chimbault
+# Creation: 2023-01-24
+# Dernière mise à jour : 2023 - 04 - 23
+
+# Path : flaskapp/utils/scraping_tweets_from_trends.py
+
 from scraping_tweets import scrape_tweets
 from csv import reader
 import time

@@ -1,3 +1,10 @@
+# But: Scrape les tendances actuelles Twitter et les sauvegarde dans un fichier csv
+# Auteur:  Thomas Chimbault
+# Creation: 2023-01-24
+# Dernière mise à jour : 2023 - 04 - 15
+
+# Path : flaskapp/utils/scraping_trends.py
+
 from bs4 import BeautifulSoup
 import requests
 

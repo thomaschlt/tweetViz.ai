@@ -1,14 +1,21 @@
+# But: Permet de traiter des fichiers CSV bruts et de les transformer en fichiers CSV contenant les tweets et leur analyse de sentiment
+# Auteur:  Thomas Chimbault
+# Creation: 2023-01-24
+# Dernière mise à jour : 2023 - 04 - 21
+
+# Path : flaskapp/utils/separate_trends.py
+
 import csv
 from sentiment_analysis import predict_tweet
 
-# Read the tweets from the CSV file
+# Lis les tweets depuis le fichier CSV
 tweets = []
 with open('../static/data/2021-October_dataset.csv', 'r', encoding='utf-8') as f:
     reader = csv.DictReader(f)
     for row in reader:
         tweets.append(row)
 
-# Group the English tweets by their trend
+# Groupe les tweets anglais par tendance
 tweets_by_trend = {}
 for tweet in tweets:
     tweet_text = tweet['tweet_text']
@@ -21,7 +28,7 @@ for tweet in tweets:
         tweets_by_trend[trend] = []
     tweets_by_trend[trend].append(tweet)
 
-# Write each group of tweets to a separate CSV file
+# Écris tendance dans un fichier CSV séparé avec les tweets et leur analyse de sentiment
 for trend, trend_tweets in tweets_by_trend.items():
     filename = trend.replace('#', '') + '.csv'
     with open(f'../static/data/2021-October-trends/{filename}', 'w', encoding='utf-8', newline='') as f:

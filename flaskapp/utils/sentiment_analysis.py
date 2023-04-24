@@ -1,3 +1,10 @@
+# But: Effectue une analyse de sentiment à l'aide d'un modèle Hugging Face pour un tweet en particulier
+# Auteur:  Thomas Chimbault
+# Creation: 2023-01-24
+# Dernière mise à jour : 2023 - 04 - 23
+
+# Path : flaskapp/utils/scraping_tweets.py
+
 from transformers import AutoTokenizer
 from transformers import AutoModelForSequenceClassification
 from scipy.special import softmax
