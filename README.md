@@ -11,7 +11,7 @@ A Flask application which includes a data visualization tool that allows for liv
 To get started with this project, follow these steps:
 
 ```
-$ git clone 
+$ git clone https://github.com/thomaschlt/tweetViz.ai.git
 $ cd flaskapp 
 $ flask run
 ```
