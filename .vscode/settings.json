@@ -1,3 +1,6 @@
 {
-  "liveServer.settings.port": 5501
+  "liveServer.settings.port": 5501,
+  "python.analysis.extraPaths": [
+    "./flaskapp/venv/lib/python3.11/site-packages/snscrape/build/lib"
+  ]
 }
