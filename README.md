@@ -2,10 +2,11 @@ TweetViz.ai
 =======================
 
 <p align="center">
-     <img width="80%" src="http://gist.github.com/vasturiano/02affe306ce445e423f992faeea13521/raw/preview.png">
+     <img width="50%" src="presentation_tweetViz.png">
 </p>
 
-A Flask application which includes a data visualization tool that allows for live Twitter data analysis with sentiment analysis. The tool features a dynamic web component that employs a [force-graph](https://en.wikipedia.org/wiki/Force-directed_graph_drawing) iterative layout to represent graph data structures in a 3-dimensional space, creating an intuitive and engaging user experience.
+A Flask application featuring a data visualization tool for real-time analysis of Twitter trends data, including sentiment analysis. To do so, i used a roBERTa-base model trained on ~58M tweets and finetuned for sentiment analysis with the TweetEval benchmark. You can find the 🤗 page of the model [here](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment).
+The tool also showcases a dynamic web component utilizing a [force-directed graph](https://en.wikipedia.org/wiki/Force-directed_graph_drawing) iterative layout to represent each trend within a 3-dimensional graph structure (D3.js) !
 
 ## Quick start
 To get started with this project, follow these steps:
